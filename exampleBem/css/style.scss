@@ -416,7 +416,7 @@ body {
   width: 2.5rem;
   height: 2.5rem;
   background-color: #c5cdd1;
-  line-height: 2.5rem;
+  line-height: 2.6rem;
   border-radius: 50%;
   text-align: center;
 
@@ -495,19 +495,19 @@ body {
     text-decoration: none;
   }
 
-  .sign-in__items--facebook {
+  &--facebook {
     background: #4d6baa;
   }
 
-  .sign-in__items--twitter {
+  &--twitter {
     background: #4fc6f8;
   }
 
-  .sign-in__items--googleplus {
+  &--googleplus {
     background: #ea6060;
   }
 
-  .sign-in__items--linkedin {
+  &--linkedin {
     background: #238cc8;
   }
 
@@ -581,7 +581,6 @@ body {
     border: none;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
   }
-
 }
 
 .subscription-form__submit {
@@ -600,7 +599,6 @@ body {
     background: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
   }
-
 }
 
 .footer {
@@ -626,6 +624,7 @@ body {
 
 .footer-nav__items {
   a {
+    text-decoration: none;
     color: #475055;
 
     &:hover {
@@ -638,7 +637,6 @@ body {
   li {
     display: inline-block;
   }
-
 }
 
 .footer-social__items:not(:last-child) {
@@ -657,21 +655,22 @@ body {
     border-radius: 50%;
     line-height: 2.5rem;
     transition: all .3s ease;
+    text-decoration: none;
   }
 
-  .footer-social__items--facebook {
+  &--facebook {
     background: #4d6baa;
   }
 
-  .footer-social__items--twitter {
+  &--twitter {
     background: #4fc6f8;
   }
 
-  .footer-social__items--googleplus {
+  &--googleplus {
     background: #ea6060;
   }
 
-  .footer-social__items--linkedin {
+  &--linkedin {
     background: #238cc8;
   }
 
@@ -705,3 +704,7 @@ body {
     transform: scale(.95);
   }
 }
+//
+//@media only screen and (max-width: 992px) {
+//
+//}

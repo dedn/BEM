@@ -1,7 +1,7 @@
 $main-text-color: #475055;
 $accent: #56ccc8;
 
-html,
+
 body {
   width: 100%;
   height: 100%;
@@ -424,7 +424,7 @@ img {
             width: 2.5rem;
             height: 2.5rem;
             background-color: #c5cdd1;
-            line-height: 2.5rem;
+            line-height: 2.6rem;
             border-radius: 50%;
             text-align: center;
 
@@ -720,3 +720,5 @@ img {
   }
 }
 
+@media only screen and (max-width: 992px) {
+}
