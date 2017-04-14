@@ -535,7 +535,3 @@ img {
       -webkit-transform: scale(0.95);
       -ms-transform: scale(0.95);
       transform: scale(0.95); }
-
-@media only screen and (max-width: 992px) {
-  .communication .social .social-menu li a .icon-block-facebook {
-    background: red; } }
