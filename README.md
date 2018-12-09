@@ -1,9 +1,7 @@
 # Bem example
 
 ## Presentation files
-Link GoogleDrive https://drive.google.com/open?id=0ByaMWNOaRPxCY01tNUFUTHZuVWM
-
-Link ExampleCss http://dedn.github.io/examplebem
+Link GoogleDrive https://docs.google.com/presentation/d/1OiJtWmFrQa2H1UoMLh2NJYvrbsuwTitqnpIroOGLcJI/edit?usp=sharing
 
 Link ExampleBem http://dedn.github.io/examplecss
 
